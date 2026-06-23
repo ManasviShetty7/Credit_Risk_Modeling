@@ -1,6 +1,6 @@
 # CIBIL Credit Risk Analytics
 
-An interactive, high-fidelity **Retail Credit Risk Underwriting & Scorecard Calibration Hub** built with React, Vite, and Tailwind CSS. This full-stack simulation implements credit scoring based on realistic Indian borrower demographics, financial thresholds, and a standard credit range (CIBIL equivalent of `300–900` points).
+An interactive, high-fidelity **Retail Credit Risk Underwriting & Scorecard Calibration Hub**. This dashboard implements credit scoring based on realistic Indian borrower demographics, financial thresholds, and a standard credit range (CIBIL equivalent of `300–900` points).
 
 Developers can simulation-test borrower underwriting, manually calibrate logistic regression coefficients, scale log-odds metrics using customizable Points to Double Odds (PDO) systems, run an in-browser Gradient Descent optimizer, and validate models instantly using built-in ROC curves, Gini indicators, and confusion threshold matrices.
 
