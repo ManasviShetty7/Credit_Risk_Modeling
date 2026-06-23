@@ -6,21 +6,14 @@ Developers can simulation-test borrower underwriting, manually calibrate logisti
 
 ---
 
-## 📸 Application Preview
-
-Below are placeholders to upload your screenshots directly to your GitHub repository (e.g., inside a `/docs` directory or by dragging them directly into the issue/readme editor).
+## 📸 Screenshots
 
 ### 1. Main Dashboard & Portfolio metrics
 ![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%201.png)
-*Figure 1: Main statistics view demonstrating simulated underwriting volume, average credit scores, portfolio broad bad rate, and predictive metrics.*
-
-### 2. Underwriting Sandbox (CIBIL Scale)
-![Underwriting Sandbox](./docs/screenshots/underwriting_sandbox.png)
-*Figure 2: Custom sandbox modeling realistic Indian borrower details (INR financial indices) with dynamic waterfall log-odds contributions and circular gauge score feedback.*
-
-### 3. Model Calibration & Evaluation
-![Calibration and ROC Evaluation](./docs/screenshots/model_evaluation.png)
-*Figure 3: Live interactive calibration tuning coefficients alongside live-updating ROC curves, Gini Index calculation, score distributions, and interactive confusion matrices.*
+![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%202.png)
+![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%203.png)
+![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%204.png)
+![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%205.png)
 
 ---
 
