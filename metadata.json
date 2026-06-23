@@ -1,0 +1,6 @@
+{
+  "name": "Credit Risk Modeling",
+  "description": "An interactive credit risk analysis and scorecard model application to predict borrow default probabilities using logistic regression, feature engineering, and ROC analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
