@@ -11,7 +11,7 @@ Developers can simulation-test borrower underwriting, manually calibrate logisti
 Below are placeholders to upload your screenshots directly to your GitHub repository (e.g., inside a `/docs` directory or by dragging them directly into the issue/readme editor).
 
 ### 1. Main Dashboard & Portfolio metrics
-![Portfolio Dashboard](./docs/screenshots/dashboard_metrics.png)
+![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%201.png)
 *Figure 1: Main statistics view demonstrating simulated underwriting volume, average credit scores, portfolio broad bad rate, and predictive metrics.*
 
 ### 2. Underwriting Sandbox (CIBIL Scale)
