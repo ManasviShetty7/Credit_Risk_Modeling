@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# CIBIL Credit Risk Analytics
 
-# Run and deploy your AI Studio app
+An interactive, high-fidelity **Retail Credit Risk Underwriting & Scorecard Calibration Hub** built with React, Vite, and Tailwind CSS. This full-stack simulation implements credit scoring based on realistic Indian borrower demographics, financial thresholds, and a standard credit range (CIBIL equivalent of `300–900` points).
 
-This contains everything you need to run your app locally.
+Developers can simulation-test borrower underwriting, manually calibrate logistic regression coefficients, scale log-odds metrics using customizable Points to Double Odds (PDO) systems, run an in-browser Gradient Descent optimizer, and validate models instantly using built-in ROC curves, Gini indicators, and confusion threshold matrices.
 
-View your app in AI Studio: https://ai.studio/apps/9cf16e67-47e3-4d03-b65d-70df8eebc279
+---
 
-## Run Locally
+## 📸 Application Preview
 
-**Prerequisites:**  Node.js
+Below are placeholders to upload your screenshots directly to your GitHub repository (e.g., inside a `/docs` directory or by dragging them directly into the issue/readme editor).
 
+### 1. Main Dashboard & Portfolio metrics
+![Portfolio Dashboard](./docs/screenshots/dashboard_metrics.png)
+*Figure 1: Main statistics view demonstrating simulated underwriting volume, average credit scores, portfolio broad bad rate, and predictive metrics.*
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 2. Underwriting Sandbox (CIBIL Scale)
+![Underwriting Sandbox](./docs/screenshots/underwriting_sandbox.png)
+*Figure 2: Custom sandbox modeling realistic Indian borrower details (INR financial indices) with dynamic waterfall log-odds contributions and circular gauge score feedback.*
+
+### 3. Model Calibration & Evaluation
+![Calibration and ROC Evaluation](./docs/screenshots/model_evaluation.png)
+*Figure 3: Live interactive calibration tuning coefficients alongside live-updating ROC curves, Gini Index calculation, score distributions, and interactive confusion matrices.*
+
+---
+
+## 🚀 Key Features
+
+### 🇮🇳 Demographics & Financial Guardrails
+- **Indian Financial Context**: Structured around Indian Rupee (`₹`) denominations, with average salary distributions, realistic credit card limits, and asset-backed loan demands mapping cleanly to local industry averages.
+- **CIBIL Equivalent Scoring**: Operates strictly within the standard credit scale range of **`300` to `900` points** (replacing legacy international FICO ranges of 300–850).
+
+### 🩺 Borrower Underwriting Sandbox
+- **Dynamic Scenario Presets**: Instant loading of representative prime, medium-grade, and subprime borrower templates (e.g., Priya Patel, Amit Verma, Vikram Joshi).
+- **Logarithmic Odds Waterfall**: Visually outlines how individual features (DTI ratios, annualized earnings, Credit Card utilization scales) mathematically contribute toward or protect against Default Risk.
+
+### 🎛️ Mathematical Calibration & Scalers
+- **Logistic Coefficients Adjustment**: Sliders to intuitively fine-tune Linear Predictor weights ($\beta$) for multiple credit features.
+- **Points to Double Odds (PDO) Scaling**: Allows real-time mathematical translation using standard formulaic configurations:
+  $$\text{Score} = \text{Offset} + \text{Factor} \times \ln(\text{Odds})$$
+  $$\text{Factor} = \frac{\text{PDO}}{\ln(2)}$$
+- **Dynamic In-Browser Optimization**: Includes a direct Logistic Regression solver using standardized batch-gradient descent, generating maximum likelihood estimates directly on the active dataset of 120 test borrowers.
+
+### 📊 Comprehensive Model Diagnostics
+- **Interactive Cutoff Score Selector**: Slide a threshold controller to observe dynamic shifts in False Positives, False Negatives, Approvals, and Projected Bad Rates.
+- **Advanced Charts**: Interactive layout representing ROC Curves (computing AUC & Gini) and score category histograms built using standard responsive design patterns.
+- **Dataset Explorer**: Searchable and filterable data grid listing realistic, synthetic borrower credits for instant underwriting assessment.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+- **Framework**: [React 19+](https://react.dev/) + [Vite](https://vite.dev/) 
+- **Language**: TypeScript (Type-safe domain schemas)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Visuals & Charts**: [Recharts](https://recharts.org/) & [Lucide-React Icons](https://lucide.dev/)
+- **Animations**: [Motion](https://motion.dev/) (Smooth transitions and micro-interactions)
