@@ -8,15 +8,15 @@ Developers can simulation-test borrower underwriting, manually calibrate logisti
 
 ## 📸 Screenshots
 
-### 1. Main Dashboard & Portfolio metrics
+### 1.
 ![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%201.png)
-
+### 2.
 ![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%202.png)
-
+### 3.
 ![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%203.png)
-
+### 4.
 ![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%204.png)
-
+### 5.
 ![Portfolio Dashboard](https://github.com/ManasviShetty7/Credit_Risk_Modeling/blob/main/CRM%205.png)
 
 ---
